@@ -6,6 +6,7 @@ export default React.createClass({
         return (
           <div id="create">
               <Nav />
+              <h3>Create Your Own Zelda Card Here:</h3>
             <input type = "text"
             placeholder = "Name" />
             <input type = "text"

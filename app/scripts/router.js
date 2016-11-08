@@ -18,7 +18,7 @@ const Router = Backbone.Router.extend({
     'register': 'register',
     'create'  : 'create',
     'cards'   : 'cards',
-    'card/name': 'card',
+    'card/:id': 'card',
 },
   home(){
     ReactDom.render(<Home/>, container);
