@@ -7,18 +7,19 @@ import Register from './components/register';
 import Cards from './components/cardpreviews';
 import Card from './components/card';
 import Create from './components/create';
+import Avatar from './components/avatar';
 import data from './data';
 
 var container = document.getElementById('container');
 
 const Router = Backbone.Router.extend({
   routes: {
-    ''        : 'home',
-    'login'   : 'login',
-    'register': 'register',
-    'create'  : 'create',
-    'cards'   : 'cards',
-    'card/:id': 'card',
+    ''          : 'home',
+    'login'     : 'login',
+    'register'  : 'register',
+    'create'    : 'create',
+    'cards'     : 'cards',
+    'card/:name': 'card',
 },
   home(){
     ReactDom.render(<Home/>, container);
@@ -36,7 +37,12 @@ const Router = Backbone.Router.extend({
     ReactDom.render(<Cards data={data}/>, container);
   },
   card(name){
-    ReactDom.render(<Card data="{data[0]}"/>, container);
+    console.log(name);
+    let character = data.filter(function(obj, i, arr){
+      return name === obj.name;
+    })[0]
+    // console.log(character);
+    ReactDom.render(<Card data={character}/>, container);
   },
 });
 

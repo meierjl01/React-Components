@@ -9,8 +9,8 @@ export default React.createClass({
     return (
       <div>
         <Nav />
-        <h2 id="li-title">Zelda Cards: </h2>
-        <CardList />
+        <h2 id="li-title">Zelda Cards:</h2>
+        <CardList data={data}/>
       </div>
     )
   }

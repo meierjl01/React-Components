@@ -1,10 +1,10 @@
-const data = [{
+const data =[{
         name: 'Zelda',
         weapon: 'Zelda\'s Sword',
         characteristics: 'Kind and benevolent',
         from: 'Hyrule',
         funFact: 'Zelda\'s name was inspired by Zelda Fitzgerald, F Scott Fitzgerald\s wife',
-        avatar: '../../assets/images/zelda.png',
+        avatar: '/assets/images/zelda.png',
     },
 
     {
@@ -13,7 +13,7 @@ const data = [{
         characteristics: 'Loyal and brave',
         from: 'Hyrule',
         funFact: 'Link was based on Disney\'s Peter Pan',
-        avatar: '../../assets/images/link.png',
+        avatar: '/assets/images/link.png',
     },
 
     {
@@ -22,7 +22,7 @@ const data = [{
         characteristics: 'Power-hungry',
         from: 'Gerudo',
         funFact: 'Robin Williams said he wanted to voice Ganondorf if a film was ever made',
-        avatar: '../../assets/images/ganondorf.png',
+        avatar: '/assets/images/ganondorf.png',
     },
 
     {
@@ -31,7 +31,7 @@ const data = [{
         characteristics: 'Mischievous',
         from: 'The Lost Woods',
         funFact: 'He\s the primary source of conflict in Majora\'s Mask',
-        avatar: '../../assets/images/skullkid.png',
+        avatar: '/assets/images/skullkid.png',
     },
 
     {
@@ -40,7 +40,7 @@ const data = [{
         characteristics: 'Protector',
         from: 'The Sheikah Tribe',
         funFact: 'She\'s called The Servant of The Goddess',
-        avatar: '../../assets/images/impa.png',
+        avatar: '/assets/images/impa.png',
     }
 ];
 

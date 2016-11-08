@@ -8,11 +8,11 @@ export default React.createClass({
       <nav className="nav">
         <a href="#cards">All Cards</a>
         <a href="#create">Create A Card</a>
-        <a href="#card1">Card 1</a>
-        <a href="#card2">Card 2</a>
-        <a href="#card3">Card 3</a>
-        <a href="#card4">Card 4</a>
-        <a href="#card5">Card 5</a>
+        <a href="#card/Zelda">Card 1</a>
+        <a href="#card/Link">Card 2</a>
+        <a href="#card/Ganondorf">Card 3</a>
+        <a href="#card/Skull Kid">Card 4</a>
+        <a href="#card/Impa">Card 5</a>
       </nav>
     )
   }
