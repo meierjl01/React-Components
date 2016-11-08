@@ -32,6 +32,7 @@
 //login
 
 .login {
+    text-align: center;
     input {
         margin: 1em;
     }
@@ -39,6 +40,7 @@
 //register
 
 .register {
+  text-align: center;
     input {
         margin: 1em;
     }
@@ -73,7 +75,7 @@
     li {
         @include span-columns(5);
         text-align: center;
-        border: 1px solid black;
+        border: 5px solid green;
         margin: 1em;
         padding: 1em;
         display: inline-block;
